@@ -33,7 +33,7 @@ svg {
     --clr-secondary-400: var(--clr-secondary-hsl-400);
     --clr-secondary-500:var(--clr-secondary-500);
 
-    --clr-primary-bg: #2c3e50;
+    --clr-primary-bg: #111111;
     --clr-secondary-bg: #f2f2f2;
 
     --clr-accent-1: 0, 100%, 67%;
@@ -227,7 +227,7 @@ video {
         & .contents:hover {
             transition: .7s;
             background-color: rgba(255, 255, 255, 0.612);
-            scale: 1.4;
+            scale: 1.2;
         }
 
         & .contents:hover p {

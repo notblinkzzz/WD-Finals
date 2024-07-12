@@ -51,7 +51,7 @@
                 color: black;
                 padding: 0.3rem 0.7rem;
                 border: 1px solid black;
-                white-space: nowrap; /* Added this line */
+                white-space: nowrap;
                 border-radius: 5px;
             }
             a.pop-up:hover p {

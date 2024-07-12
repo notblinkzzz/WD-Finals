@@ -32,7 +32,7 @@ svg {
     --clr-secondary-400: var(--clr-secondary-hsl-400);
     --clr-secondary-500:var(--clr-secondary-500);
 
-    --clr-primary-bg: #2c3e50;
+    --clr-primary-bg: #111111;
     --clr-secondary-bg: #f2f2f2;
 
     --clr-accent-1: 0, 100%, 67%;
@@ -77,7 +77,7 @@ body {
     font-family: var(--font-family-default);
     font-size: var(--fs-400);
     color: var(--clr-neutral-700);
-    background-image: url(../img/pawel-czerwinski-YuJm-d7k2Jg-unsplash.jpg);
+    background-image: url(../img/visax-hBa68pkZD88-unsplash.jpg);
     background-position: center;
     background-size: cover;
 
@@ -87,6 +87,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-color: var(--clr-primary-bg);
+    justify-content: space-between;
     height: 80vh;
     width: 65vw;
     border-radius: var(--br-default);
@@ -115,7 +116,6 @@ body {
             }
 
             & .full-name {
-
                 font-size: var(--fs-800);
                 font-weight: var(--fw-bold);
             }
@@ -161,7 +161,7 @@ body {
             font-size: var(--fs-600);
             font-weight: var(--fw-regular);
         }
-        
+
         & .title {
             font-size: var(--fs-900);
             font-weight: var(--fw-bold);
@@ -172,5 +172,10 @@ body {
             font-size: var(--fs-500);
             font-weight: var(--fw-regular);
         }
+
     }
+
+
+
+
 }

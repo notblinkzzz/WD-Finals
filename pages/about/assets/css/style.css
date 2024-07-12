@@ -33,7 +33,7 @@ svg {
     --clr-secondary-400: var(--clr-secondary-hsl-400);
     --clr-secondary-500:var(--clr-secondary-500);
 
-    --clr-primary-bg: #2c3e50;
+    --clr-primary-bg: #111111;
     --clr-secondary-bg: #f2f2f2;
 
     --clr-accent-1: 0, 100%, 67%;
@@ -53,6 +53,7 @@ svg {
     --fs-700: 1.75rem;
     --fs-800: 2rem;
     --fs-900: 5rem;
+    --fs-1000: 10rem;
 
     --fs-icon-default: 2.5rem;
     --clr-icon-primary: white;
@@ -70,30 +71,64 @@ body {
     font-family: var(--font-family-default);
     font-size: var(--fs-400);
     color: var(--clr-neutral-700);
-    background-image: url(../img/pawel-czerwinski-YuJm-d7k2Jg-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
 
 }
-
-.wrapper {
+.hero {
     display: flex;
-    flex-wrap: wrap;
-    background-color: var(--clr-secondary-bg);
-    height: 80vh;
-    width: 65vw;
-    border-radius: var(--br-default);
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    perspective: 1000px;
+    justify-content: center;
 
-    & .col-1 {
-        display: flex;
-        height: 100%;
-        width: 35%;
+    & .bottom-layer {
+        position: absolute;
+        z-index: -1;
+        width: 100vw;
+        height: 100vh;
+        object-fit:cover;
     }
-    & .col-2 {
+
+    & .top-layer {
+        position: absolute;
+        z-index: 1;
+        width: 100vw;
+        height: 100vh;
+        object-fit:cover;
+    }
+    
+    .title {
         display: flex;
-        height: 100%;
-        width: 65%;
-        background-color: var(--clr-primary-bg);
-        border-radius: var(--br-default);
+        width: 100dvw;
+        height: fit-content;
+        perspective: 30rem;
+        justify-content: center;
+        position: absolute;
+        top: 20rem;
+    
+        & p {
+            font-size: var(--fs-1000);
+            font-weight: var(--fw-bold);
+            transform: rotateX(20deg);
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+        }
+    }
+
+    & .card-1 {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        font-size: var(--fs-400);
+        width: 60vw;
+        height: fit-content;
+        position: absolute;
+        bottom: 9rem;
+
+        border-radius: 4px;
+
+        & p {
+            font-weight: var(--fw-regular);
+            text-align: center;
+        }
     }
 }
+
