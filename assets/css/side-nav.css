@@ -20,6 +20,9 @@
             font-size: var(--fs-icon-default);
             color: var(--clr-icon-secondary);
         }
+        .pop-up:hover {
+            color: var(--clr-icon-primary);
+        }
         .pop-up.active{
             color: var(--clr-icon-primary);
             filter: drop-shadow(0 3px 3px rgba(255, 255, 255, 0.4));
