@@ -60,6 +60,8 @@ svg {
     --fs-icon-default: 2.5rem;
     --clr-icon-primary: rgb(255, 255, 255);
     --clr-icon-secondary: rgba(255, 255, 255, 0.4);
+    /* --clr-icon-hover: rgba(255, 255, 255, 0.9); */
+
     --clr-icon-social-primary: rgb(0, 0, 0);
     --clr-icon-social-secondary: rgba(0, 0, 0, 0.6);
 
