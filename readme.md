@@ -4,23 +4,23 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/notblinkzzz/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/Untitled__2_-removebg-preview (1) (1).png" width="350" height="200">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Final Examination</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=notblinkzzz/WD-Finals)
 
 ---
 
@@ -57,26 +57,28 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+This final examination is focused on creating a resume type website with distinct pages, while also integrating a page dedicated to showcasing past projects. The purpose of this Project is to combine everything that you have learned and create something unique.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+Key elements of my website include 3D effects and a dark mode feature. I utilized perspective to add a three-dimensional effect to the title on my 'About Me' page. I used hover effect for the dark mode.
+Additionally, I used z-index to create a text-stroke effect on specific areas of an image.
+
+The technologies that I used were HTML and CSS. I used HTML for the contents and structure of the website and CSS to design the contents in order for it to look good.
+
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Multi Page
+- Hover Effects
+- 3D Effects
+- Layered Images
+- Pagination
+- Side navbar
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -117,4 +119,8 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Reference layout | This is the site I based my layouts on. It looked nice and was a good learning experience trying to recreate it. | https://lmpixels.com/demo/breezycv/dark/1/index.html#resume |
+| Background Photos | To have good background images | unsplash.com |
+| Live Wallpaper | To have a live wallpaper | https://mylivewallpapers.com/ |
+| Wallpaper for About Me Page | A cool looking image | https://www.youtube.com/watch?v=p6Ky8BSYQM0&t=37s |
+| Icons | To have icons on my website | https://fontawesome.com/ |
