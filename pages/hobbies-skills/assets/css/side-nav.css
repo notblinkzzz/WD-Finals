@@ -24,6 +24,14 @@
             color: var(--clr-icon-primary);
             filter: drop-shadow(0 3px 3px rgba(255, 255, 255, 0.4));
         }
+        .pop-up:hover {
+            transition: 300ms;
+            color: var(--clr-icon-hover);
+        }
+        .active:hover  {
+            transition: 300ms;
+            color: var(--clr-icon-primary);
+        }
 
         & .col-top,
         .col-bottom {

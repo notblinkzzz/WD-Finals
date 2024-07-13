@@ -33,7 +33,7 @@ svg {
     --clr-secondary-400: var(--clr-secondary-hsl-400);
     --clr-secondary-500:var(--clr-secondary-500);
 
-    --clr-primary-bg: #2c3e50;
+    --clr-primary-bg: #111111;
     --clr-secondary-bg: #f2f2f2;
 
     --clr-accent-1: 0, 100%, 67%;
@@ -55,8 +55,9 @@ svg {
     --fs-900: 5rem;
 
     --fs-icon-default: 2.5rem;
-    --clr-icon-primary: white;
-    --clr-icon-secondary: rgba(255, 255, 255, 0.40);
+    --clr-icon-primary: rgb(255, 255, 255);
+    --clr-icon-secondary: rgba(255, 255, 255, 0.4);
+    --clr-icon-hover: rgb(200, 200, 200);
 
 
     --br-default: 50px;

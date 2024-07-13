@@ -58,9 +58,9 @@ svg {
     --fs-900: 3.5rem;
 
     --fs-icon-default: 2.5rem;
-    --clr-icon-primary: white;
-    --clr-icon-secondary: rgba(255, 255, 255, 0.40);
-
+    --clr-icon-primary: rgb(255, 255, 255);
+    --clr-icon-secondary: rgba(255, 255, 255, 0.4);
+    --clr-icon-hover: rgb(200, 200, 200);
 
     --clr-fb:#4267B2;
     --clr-insta: #5B51D8;

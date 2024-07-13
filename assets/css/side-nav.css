@@ -21,6 +21,11 @@
             color: var(--clr-icon-secondary);
         }
         .pop-up:hover {
+            transition: 300ms;
+            color: var(--clr-icon-hover);
+        }
+        .active:hover  {
+            transition: 300ms;
             color: var(--clr-icon-primary);
         }
         .pop-up.active{
