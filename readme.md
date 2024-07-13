@@ -59,7 +59,7 @@
 <!-- The following are just sample -->
 This final examination is focused on creating a resume type website with distinct pages, while also integrating a page dedicated to showcasing past projects. The purpose of this Project is to combine everything that you have learned and create something unique.
 
-Key elements of my website include 3D effects and a dark mode feature. I utilized perspective to add a three-dimensional effect to the title on my 'About Me' page. I used hover effect for the dark mode.
+Key elements of my website include 3D effects and a Hover effects. I utilized perspective to add a three-dimensional effect to the title on my 'About Me' page. I used hover effect for inverting the colors.
 Additionally, I used z-index to create a text-stroke effect on specific areas of an image.
 
 The technologies that I used were HTML and CSS. I used HTML for the contents and structure of the website and CSS to design the contents in order for it to look good.
@@ -74,6 +74,9 @@ The technologies that I used were HTML and CSS. I used HTML for the contents and
 - Layered Images
 - Pagination
 - Side navbar
+
+### Deployment Link
+https://notblinkzzz.github.io/WD-Finals/
 
 ### Technology
 <!-- TODO: List of Technology Used -->
