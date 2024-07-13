@@ -44,15 +44,17 @@ svg {
     --font-family-default: 'Poppins';
 
     --fw-regular: 500;
+    --fw-semi-bold: 600;
     --fw-bold: 700;
-    --fw-black: 800;
+    --fw-black: 900;
 
     --fs-400: 1.125rem;
     --fs-500: 1.25rem;
     --fs-600: 1.5rem;
     --fs-700: 1.75rem;
     --fs-800: 2rem;
-    --fs-900: 5rem;
+    --fs-900: 3.5rem;
+    --fs-1000: 15rem;
 
     --fs-icon-default: 2.5rem;
     --clr-icon-primary: rgb(255, 255, 255);
@@ -71,30 +73,130 @@ body {
     font-family: var(--font-family-default);
     font-size: var(--fs-400);
     color: var(--clr-neutral-700);
-    background-image: url(../img/pawel-czerwinski-YuJm-d7k2Jg-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
+    background-color: var(--clr-secondary-bg);
+
 
 }
 
-.wrapper {
+main {
     display: flex;
-    flex-wrap: wrap;
-    background-color: var(--clr-secondary-bg);
-    height: 80vh;
-    width: 65vw;
-    border-radius: var(--br-default);
+    height: 100%;
+    width: 100%;
+    padding: 3rem 3rem 3rem 14rem; /* top right bot left*/
 
-    & .col-1 {
+    & .wrapper {
         display: flex;
-        height: 100%;
-        width: 35%;
-    }
-    & .col-2 {
-        display: flex;
-        height: 100%;
-        width: 65%;
-        background-color: var(--clr-primary-bg);
-        border-radius: var(--br-default);
+        flex-direction: column;
+        width: 100%;
+
+        & .row-1, .row-2 {
+            height: 50%;
+
+        }
+
+        & .row-1 {
+            display: flex;
+            position: relative;
+            width: 100%;
+
+            & .text-area {
+                width: 60%;
+                position: absolute;
+
+                & .title {
+                    font-size: var(--fs-1000);
+                    font-weight: var(--fw-bold);
+                }
+    
+                & .title-description {
+                    font-size: var(--fs-400);
+                    font-weight: var(--fw-bold);
+                }
+
+                & .top-text, .bottom-text {
+                    position: absolute;
+                }
+                & .top-text {
+                    z-index: 3;
+                    color: transparent;
+                    -webkit-text-stroke: 4px black;
+
+                }
+
+            }
+            & .col-1 {
+                width: 35%;
+            }
+            & .col-2 {
+                position: relative;
+                background-color: white;
+                height: 100%;
+                width: 65%;
+
+                & img {
+                    position: absolute;
+                    z-index: 2;
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    border-top-right-radius: 50px;
+                }
+            }
+        }
+
+        & .row-2 {
+            display: flex;
+            border: 2px solid black;
+            background-color: rgba(255, 255, 255, 0.5);
+            /* background-image: url(../img/pawel-czerwinski-YuJm-d7k2Jg-unsplash.jpg);
+            background-position: center;
+            background-size: cover; */
+            border-bottom-right-radius: 50px;
+
+            & .contents {
+                display: flex;
+                height: 100%;
+                width: 100%;
+                border-radius: 100vh;
+                align-items: center;
+                border: 2px solid black;
+                flex-direction: column;
+                padding: 3rem;
+                background-color: rgba(255, 255, 255, 0.7);
+                transition: 20s;
+                cursor: pointer;
+
+                & .year {
+                    display: flex;
+                    font-size: var(--fs-900);
+                    font-weight: var(--fw-bold);
+                    height: 50%;
+                    align-items: center;
+                }
+
+                & .grade-level {
+                    font-size: var(--fs-600);
+                    font-weight: var(--fw-semi-bold);
+                }
+
+                & .course-and-name {
+                    text-align: center;
+                    width: 80%;
+                    font-size: var(--fs-600);
+                }
+
+                & .size-down {
+                    font-size: 2.6rem;
+                }
+            }
+
+            & .contents:hover {
+            
+            background-image: url(../img/pawel-czerwinski-YuJm-d7k2Jg-unsplash.jpg);
+            background-position: center;
+            background-size: cover;
+
+            }
+        }
     }
 }
