@@ -96,6 +96,7 @@ https://github.com/notblinkzzz/WD-Seatwork-4-TX03
 
 ### WakaTime
 [![wakatime](https://wakatime.com/badge/user/018ee9d7-76cb-4d00-a96d-8de1fe10ea6a/project/d6e83ad2-3bf8-4838-a793-2db2c9793550.svg)](https://wakatime.com/badge/user/018ee9d7-76cb-4d00-a96d-8de1fe10ea6a/project/d6e83ad2-3bf8-4838-a793-2db2c9793550)
+<br />
 https://wakatime.com/projects/WD-Finals
 
 ### Technology
@@ -143,7 +144,7 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Reference layout | This is the site I based my layouts on. It looked nice and was a good learning experience trying to recreate it. | https://lmpixels.com/demo/breezycv/dark/1/index.html#resume |
-| Background Photos | To have good background images | unsplash.com |
+| Background Photos | To have good background images | https://unsplash.com/ |
 | Live Wallpaper | To have a live wallpaper | https://mylivewallpapers.com/ |
 | Wallpaper for About Me Page | A cool looking image | https://www.youtube.com/watch?v=p6Ky8BSYQM0&t=37s |
 | Icons | To have icons on my website | https://fontawesome.com/ |
