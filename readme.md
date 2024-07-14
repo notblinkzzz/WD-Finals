@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-
+This website showcases the culmination of everything I have learned.
 </div>
 
 <br />
@@ -95,9 +95,9 @@ https://github.com/notblinkzzz/WD-Seatwork-3-TX03
 https://github.com/notblinkzzz/WD-Seatwork-4-TX03
 
 ### WakaTime
-[![wakatime](https://wakatime.com/badge/user/018ee9d7-76cb-4d00-a96d-8de1fe10ea6a/project/d6e83ad2-3bf8-4838-a793-2db2c9793550.svg)](https://wakatime.com/badge/user/018ee9d7-76cb-4d00-a96d-8de1fe10ea6a/project/d6e83ad2-3bf8-4838-a793-2db2c9793550)
-<br />
 https://wakatime.com/projects/WD-Finals
+<br />
+[![wakatime](https://wakatime.com/badge/user/018ee9d7-76cb-4d00-a96d-8de1fe10ea6a/project/d6e83ad2-3bf8-4838-a793-2db2c9793550.svg)](https://wakatime.com/badge/user/018ee9d7-76cb-4d00-a96d-8de1fe10ea6a/project/d6e83ad2-3bf8-4838-a793-2db2c9793550)
 
 ### Technology
 <!-- TODO: List of Technology Used -->
