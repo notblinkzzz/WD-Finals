@@ -97,8 +97,8 @@ body {
         height: 100vh;
         object-fit:cover;
     }
-    
-    .title {
+
+    & .title {
         display: flex;
         width: 100dvw;
         height: fit-content;
@@ -106,7 +106,7 @@ body {
         justify-content: center;
         position: absolute;
         top: 20rem;
-    
+
         & p {
             font-size: var(--fs-1000);
             font-weight: var(--fw-bold);
@@ -116,8 +116,8 @@ body {
         }
     }
 
-    & .card-1 {
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    & .description {
+        box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
         font-size: var(--fs-400);
         width: 60vw;
         height: fit-content;
@@ -126,14 +126,13 @@ body {
         bottom: 9rem;
         border-radius: 4px;
         cursor: pointer;
-        & p {
-            font-weight: var(--fw-regular);
-            text-align: center;
-        }
+        font-weight: var(--fw-regular);
+        text-align: center;
+        transition: 1s;
+        color: rgba(0, 0, 0, 0.50);
     }
-
-    & .card-1:hover {
-        color: rgba(0, 0, 0, 0.80);
+    & .description:hover {
+        color: rgba(0, 0, 0);
         box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35);
     }
 }
