@@ -75,7 +75,6 @@ body {
     color: var(--clr-neutral-700);
     background-color: var(--clr-secondary-bg);
 
-
 }
 
 main {
@@ -102,6 +101,7 @@ main {
             & .text-area {
                 width: 60%;
                 position: absolute;
+                display: inline-block;
 
                 & .title {
                     font-size: var(--fs-1000);
@@ -120,13 +120,12 @@ main {
                     z-index: 3;
                     color: transparent;
                     -webkit-text-stroke: 4px black;
-
                 }
 
             }
             & .col-1 {
                 width: 35%;
-                /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+
             }
             & .col-2 {
                 position: relative;
@@ -163,6 +162,7 @@ main {
                 background-color: rgba(255, 255, 255, 0.7);
                 transition: 10s;
                 cursor: pointer;
+                transition: .5s;
 
                 & .year {
                     display: flex;
@@ -189,10 +189,8 @@ main {
             }
 
             & .contents:hover {
-                background-image: url(../img/pawel-czerwinski-YuJm-d7k2Jg-unsplash.jpg);
-                /* background-image: url(../img/jj-ying-7JX0-bfiuxQ-unsplash.jpg); */
-                background-position: center;
-                background-size: cover;
+              box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+              border: 2px solid transparent;
             }
         }
     }
