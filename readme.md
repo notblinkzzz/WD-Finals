@@ -78,6 +78,26 @@ The technologies that I used were HTML and CSS. I used HTML for the contents and
 ### Deployment Link
 https://notblinkzzz.github.io/WD-Finals/
 
+### Links to other project repositories
+- Hero and Cards
+https://github.com/notblinkzzz/WD-Hands-on-2
+
+- Midterms
+https://github.com/notblinkzzz/WD-Midterm
+
+- Resume
+https://github.com/notblinkzzz/WD-Seatwork-2-TX03-reup
+
+- Headers and Footers
+https://github.com/notblinkzzz/WD-Seatwork-3-TX03
+
+- Feature Display
+https://github.com/notblinkzzz/WD-Seatwork-4-TX03
+
+### WakaTime
+[![wakatime](https://wakatime.com/badge/user/018ee9d7-76cb-4d00-a96d-8de1fe10ea6a/project/d6e83ad2-3bf8-4838-a793-2db2c9793550.svg)](https://wakatime.com/badge/user/018ee9d7-76cb-4d00-a96d-8de1fe10ea6a/project/d6e83ad2-3bf8-4838-a793-2db2c9793550)
+https://wakatime.com/projects/WD-Finals
+
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
